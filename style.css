@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(24, 21, 21);
+}
+header nav{
+    display: grid;
+    grid-template-areas:
+         "a b c";
+    justify-content: center;
+    column-gap: 3opx;
+    background-size: cover;
+    background-position:center ;
+    align-items: flex-end;
+}
+
+.logo1{
+    height: 210px;
+    display: flex;
+    justify-content: center;
+}
+header nav a{
+    display: flex;
+    text-decoration: none;
+    font-style: italic;
+    flex-direction:row;
+    align-items: flex-end;
+    padding: 20px;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+main{
+    padding: 45px;
+}
+.local{
+    display: grid;
+    grid-template-areas: " a b ";
+    grid-column-gap: 27px;
+    grid-row-gap: 35px;
+}
+
+.local1{
+    height: 445px;
+    padding-left: 100px;
+    grid-template: 15px;
+}
+
+.desc1{
+    color: blanchedalmond;
+    display: grid;
+    align-content: space-around;
+    font-size: xx-large;
+    font-style: italic;
+}
+.local3{
+    height: 450px;
+    padding-left: 100px;
+}
+.desc2{
+    color: blanchedalmond;
+    display: grid;
+    align-content: space-around;
+    font-size: xx-large;
+    font-style: italic;
+}
+h2{
+    padding-top: 35px;
+    display: grid;
+    font-size: 60px;
+    font-style: italic;
+    color: rgb(207, 38, 38);
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    color: blanchedalmond;
+    font-style: italic;
+    font-size: large;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.Facebook{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+}
+.Instagram{
+    width: 40px;
+    height: 40px;
+    margin: 7px;
+}
+.titulo1{
+    padding-top: 35px;
+    display: grid;
+    font-size: 60px;
+    font-style: italic;
+    color: blanchedalmond;
+    text-align: center;
+}
+.nosotros1{
+    display: grid;
+    grid-template-areas: " a b ";
+    grid-template-columns: 600px 473px;
+    grid-column-gap: 100px;
+    grid-row-gap: 10px;
+}
+.Nosotros-2{
+    height: 600px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.nosotros{
+    color: blanchedalmond;
+    display: grid;
+    align-content: space-around;
+    font-size: 23px;
+    font-style: italic;
+    padding-top: 30px;
+}
+.mapa1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 1212px) {
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(24, 21, 21);
+    }
+    
+    header nav{
+        column-gap: 0px;
+        margin-top: -45px;
+    }
+    header nav a{
+       font-size: 13px;
+    } 
+    .Logo{
+        height:160px ;
+
+    }
+    .local{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+     }   
+     .desc1{
+        font-size: x-large;
+        text-align: center;
+        flex-shrink: 1;
+     } 
+    .desc2{
+        order: 4;
+        font-size: x-large;
+        text-align: center;
+        flex-shrink: 1;
+    }
+    .local1{
+        width: 100%;
+        height: inherit;
+        margin-left: -47px;
+        flex-shrink: 1;
+    }
+    .local3{
+        width: 100%;
+        height: inherit;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .titulo1{
+        font-size: 30px;
+        padding-top: 0;
+    }
+    .nosotros1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Nosotros-2{
+        width: 100%;
+        height: inherit;
+    }
+    .nosotros{
+        padding-top: 0;
+        text-align: center;
+    }
+    .mapa{
+        height: inherit;
+        width: 100%;
+    }
+
+
+}
+  
+
+
