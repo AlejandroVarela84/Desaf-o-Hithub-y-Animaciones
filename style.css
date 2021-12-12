@@ -2,12 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgb(235, 178, 178); */
-    /* background-image: linear-gradient(to top, black, rgb(235, 178, 178)  );  */
 }
 header{
-    /* background-image: linear-gradient(to top, black, rgb(235, 178, 178)  ); */
-    background-image: linear-gradient(to bottom, black, rgb(50, 48, 92)  );
+    background-image: linear-gradient(to bottom, black, rgb(20, 19, 99), rgb(20, 19, 99)  );
 }
 header nav{
     display: grid;
@@ -34,11 +31,9 @@ header nav a{
     color: blanchedalmond;
     font-size: 20px;
 }
-
 main{
     padding: 45px;
-    /* background-image: linear-gradient(to bottom, black, rgb(235, 178, 178)  ); */
-    background-image: linear-gradient(to top, black, rgb(50, 48, 92)  );
+    background-image: linear-gradient(to top, black, rgb(20, 19, 99), rgb(20, 19, 99)  );
 }
 .local{
     display: grid;
@@ -46,13 +41,11 @@ main{
     grid-column-gap: 27px;
     grid-row-gap: 35px;
 }
-
 .local1{
     height: 445px;
     padding-left: 100px;
     grid-template: 15px;
 }
-
 .desc1{
     color: blanchedalmond;
     display: grid;
@@ -91,9 +84,8 @@ h2{
     }
 }
 footer{
-    /* background-image: linear-gradient(to top, black, rgb(235, 178, 178)  ); */
-    background-image: linear-gradient(to bottom, black, rgb(50, 48, 92)  );
-}
+    background-image: linear-gradient(to bottom, black, rgb(20, 19, 99)  );
+ }
 footer p{
     text-align: center;
     color: blanchedalmond;
@@ -104,7 +96,6 @@ footer div{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 .Facebook{
     width: 40px;
@@ -115,7 +106,6 @@ footer div{
 .Facebook:hover{
     transform: scale(1.5);
 }
-
 .Instagram{
     width: 40px;
     height: 40px;
@@ -173,16 +163,12 @@ footer div{
     } 
     .Logo{
         height:160px ;
-
     }
     .local{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
      }   
-     main{
-        background-image: linear-gradient(to top, black, rgb(50, 48, 92)  );
-     }
     .desc1{
         font-size: x-large;
         text-align: center;
