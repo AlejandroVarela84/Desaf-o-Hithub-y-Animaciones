@@ -2,12 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: rgb(235, 178, 178); */
-    /* background-image: linear-gradient(to top, black, rgb(235, 178, 178)  );  */
-}
+    }
 header{
-    /* background-image: linear-gradient(to top, black, rgb(235, 178, 178)  ); */
-    background-image: linear-gradient(to bottom, black, rgb(50, 48, 92)  );
+        background-image: linear-gradient(to bottom, black, rgb(50, 48, 92)  );
 }
 header nav{
     display: grid;
@@ -37,7 +34,6 @@ header nav a{
 
 main{
     padding: 45px;
-    /* background-image: linear-gradient(to bottom, black, rgb(235, 178, 178)  ); */
     background-image: linear-gradient(to top, black, rgb(50, 48, 92)  );
 }
 .local{
@@ -91,7 +87,6 @@ h2{
     }
 }
 footer{
-    /* background-image: linear-gradient(to top, black, rgb(235, 178, 178)  ); */
     background-image: linear-gradient(to bottom, black, rgb(50, 48, 92)  );
 }
 footer p{
